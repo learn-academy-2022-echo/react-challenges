@@ -3,12 +3,15 @@ import './App.css';
 import './Components/Header'
 import './Components/Profile'
 import './Components/Footer'
+import './Components/Favorites'
+
 function App() {
   return (
     <>
     <Header />
     <Profile />
     <Footer />
+    <Favorites />
     </>
 
 
