@@ -1,13 +1,13 @@
 const Profile = () => {
     return (
         <>
-        <p>Dawit</p>
+        <h3>Dawit</h3>
         <ul>
             <li>Dawit was born in Ethipia.  </li>
             <li>He is the oldest dude in the class echo.</li> 
             <li>He likes DIY project</li>      
         </ul>
-        <p>Daniel</p>
+        <h3>Daniel</h3>
         <ul>
             <li>Daniel was born in North Carolina.</li>
             <li>He is 30 years old.</li>

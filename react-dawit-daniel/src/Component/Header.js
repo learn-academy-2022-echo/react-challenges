@@ -1,10 +1,4 @@
-
-
-
-
-
-
 const Header = () => {
-    return <h1>Favorite Food</h1>
+    return <h1>Favorites</h1>
 }
 export default Header
