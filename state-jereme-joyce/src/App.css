@@ -1,0 +1,12 @@
+.box {
+  border-style: solid;
+  border-color: black;
+  width: 100px;
+  height: 100px;
+}
+
+.button {
+  background-color: white ;
+  color: white;
+  padding: 100px 100px;
+}
