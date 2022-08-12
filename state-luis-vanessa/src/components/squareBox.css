@@ -1,0 +1,40 @@
+
+    .square1 {
+            /* display: inline-block; */
+            width: 100px;
+            height: 100px;
+            background: white;
+            border-style: solid;
+            border-width: 2px;
+            border-color: rgb(7, 6, 6);
+            margin: auto;
+            text-align:center;
+            line-height: 100px;
+            
+            
+        }
+    .square2  {
+         /* display: inline-block; */
+         width: 100px;
+         height: 100px;
+         background:rgb(169, 53, 53);
+         border-style: solid;
+         border-width: 2px;
+         border-color: rgb(7, 6, 6);
+    
+     }
+    .square3 {
+            /* display: inline-block; */
+            width: 100px;
+            height: 100px;
+            background: white;
+            border-style: solid;
+            border-width: 2px;
+            border-color: rgb(7, 6, 6);
+    
+        }
+
+        
+            
+
+
