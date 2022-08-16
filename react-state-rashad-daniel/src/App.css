@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+.box {
+  background-color: white;
+  border-style: solid;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.box2 {
+  background-color: skyblue;
+  border-style: solid;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  justify-content: center;
+  padding: 75px;
+}
