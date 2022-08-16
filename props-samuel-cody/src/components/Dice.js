@@ -3,7 +3,7 @@ import React from 'react'
 const Dice = (props) => {
   return(
     <div onClick={props.handleClick}>
-    <h2>{props.diceRoll[props.index]}Dice</h2>
+    <h2 className='box'> {props.diceRoll[props.index]}</h2>
     </div>
   )
 }
