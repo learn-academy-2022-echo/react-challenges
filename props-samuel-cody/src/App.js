@@ -22,8 +22,10 @@ const handleClick = () => {
   return (<>
     
     <div >
-      <Dice diceRoll={diceRoll} handleClick={handleClick}/>
-    <h2 className='box'></h2>
+      <Dice diceRoll={diceRoll}
+      index={randomIndex} handleClick={handleClick}/>
+    <h2 className='box'></h2> 
+    
     </div>
   </>);
 }
