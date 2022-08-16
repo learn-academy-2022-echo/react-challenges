@@ -1,10 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import './SquareBox.js';
+import './SquareBox.css';
 
+const App = () => {
+  return <>
+  <p className= "square1"></p>
+  </>
+}
 
-function App() {
-  return (
+// function App() {
+//   return (
 
 
     // <div className="App">
@@ -27,3 +32,5 @@ function App() {
 // }
 
 export default App;
+// export default SquareBox;
+
