@@ -6,7 +6,7 @@ function Order(props) {
    <>
         <p>Cart</p>
         {props.cart.map((value, index)=>{
-            return<li key={index}>{value}</li>
+            return<li key={index}>{value.food + " " + "$" + value.price}</li>
         })}
    </>
   );

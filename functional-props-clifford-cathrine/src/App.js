@@ -16,11 +16,22 @@ const [food, setFood] = useState([
 
 const [cart, setCart] = useState([])
 
+const sum= cart
+  .map(item =>item.price )
+  .reduce((prev,curr)=>prev+curr,0)
+const sumTax=cart
+.map(item =>item.price )
+.reduce((prev,curr)=>prev+(curr*.07),0)
+.toFixed(2)
+const superTotal= Number(sum) + Number(sumTax);
+console.log(sum)
 // declare a function that will be pass down the river and update the state of the cart when we click the button
 const addItem = (item) => {
-  // setCart({cart: [...cart, item]})
-console.log(item)
+  setCart([...cart, item])
+
   } 
+  
+
 
 // ^ - this is the logic section
 
@@ -35,6 +46,9 @@ console.log(item)
         addItem={addItem}/>
       <h1>Food Cart</h1>
       <Order cart={cart} />
+      <p>SubTotal is ${sum} tax is {sumTax}</p>
+      <p>Total with tax ${superTotal}</p>
+      
      
     </>
   )
