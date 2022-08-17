@@ -1,10 +1,13 @@
 import React from "react"
 
 
-function Order() {
+function Order(props) {
   return (
    <>
-   <p>Cart</p>
+        <p>Cart</p>
+        {props.cart.map((value, index)=>{
+            return<li key={index}>{value}</li>
+        })}
    </>
   );
 }

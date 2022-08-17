@@ -1,5 +1,9 @@
 import React, { useState } from 'react'
 import Menu from './components/Menu'
+import Order from './components/Order'
+// ______________________this is the import section
+
+
 
 const App = () => {
 // create an array to maintain the list and useState to allow updates later
@@ -10,12 +14,17 @@ const [food, setFood] = useState([
     { food: "Soda", price: 2 },
 ])
 
-  const cart = []
+const [cart, setCart] = useState([])
 
 // declare a function that will be pass down the river and update the state of the cart when we click the button
-const addItem = (value) => {
-  setFood({cart: [...food, value]})
+const addItem = (item) => {
+  // setCart({cart: [...cart, item]})
+console.log(item)
   } 
+
+// ^ - this is the logic section
+
+// v - this is the display section
 
   return (
     <>
@@ -25,7 +34,8 @@ const addItem = (value) => {
         price={food.price}
         addItem={addItem}/>
       <h1>Food Cart</h1>
-      {/* <Order /> */}
+      <Order cart={cart} />
+     
     </>
   )
 }
