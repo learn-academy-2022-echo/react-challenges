@@ -1,11 +1,9 @@
 import React from "react";
 
-const FoodDisplay = ( props ) => {
+const FoodDisplay = (props) => {
     return (
         <>
-    <p>
-   Try this {props.foodItem.}
-    </p>
+           <p>Menu Item: {props.flash.food} {props.flash.price}</p>
         </>
     )
 }
