@@ -9,7 +9,7 @@ const Roll = (props) => {
   return (
     <div> Roll List
 <p>
- {props.index + 1}
+
 </p>
 
 
