@@ -5,17 +5,27 @@ import HelloWorld from './components/HelloWorld'
 const App = () => {
   // array 
 const [menuItems, setMenuItems] = useState([
-  { item: "Burger", price: "$5" },
-  { item: "Hot Dog", price: "$4" },
-  { item: "Fries", price: "$2" },
+  { item: "Burger", price: "$5", orderMade:false },
+  { item: "Hot Dog", price: "$4", orderMade:false },
+  { item: "Fries", price: "$2", orderMade:false },
 ])
+
+const orderedItems = (selectedItem,id ) =>{
+
+}
+
   return (
     <>
-     <MenuDisplay
-    /> 
-      <h1>Hello World!</h1>
+      <h1>Menu</h1>
+
+      <MenuDisplay  
+        hulk={menuItems}
+      />
       <HelloWorld/>
-          </>
+
+
+
+    </>
   )
 }
 

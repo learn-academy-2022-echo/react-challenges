@@ -1,26 +1,36 @@
 import React from 'react'
 
-
-  // pass props as a parameter on the functional component declaration
-  const MenuDisplay = ( props ) => {
-
-    // reference the props and data passed down the river on the component call through App.js 
-    //  structure --> props.name of variable pass to the component 
-      {props.event.map((value, index) => {
+const MenuDisplay = (props) => {
+  return (
+    <>
+          
+      {props.hulk.map((value,index) => {
         return(
           <ul key={index}>
-            <li> 
-              Menu: { value.menu }  
+            <li>
+              Menu: {value.item}, Price: {value.price}
               <p>
-                <button>Price: {value.price}</button>
+                <button onClick={() }>Order: { value.orderMade }</button> 
               </p>
             </li>
           </ul>
         )
-      })}}
+      })}
+  {/* <button onClick={() => props.gotSupplies(value, index)}>
+                  Supplies verified: 
+                  {value.supplies && <p> Yes, we have all the supplies </p>}
+                </button> 
+     */}
+    </>
+  )
+}
 
-      
-        export default MenuDisplay
+
+
+
+
+
+export default MenuDisplay
 
 
 
