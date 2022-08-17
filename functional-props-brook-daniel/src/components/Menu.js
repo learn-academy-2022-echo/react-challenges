@@ -4,8 +4,10 @@ const Menu = (props) => {
      <>
     <h1>MENU</h1>
       {props.foodObj.map(currentFood,) => {
-        return(
 
+        return(
+<>
+</>
         )
       }
        }  
