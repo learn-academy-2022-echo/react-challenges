@@ -97,4 +97,5 @@ As a user, I see a third robot that modifies the input as per the developer's ch
     // create onChange event named handleMethod, which will be what listen for click
     // create input attribute which will accept text, pull the value of useState variable and also hold onChange
 
-// 
+// BAD ROBOT LOGIC: 
+// Take 

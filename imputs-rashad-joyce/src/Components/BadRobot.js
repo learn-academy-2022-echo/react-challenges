@@ -4,6 +4,7 @@ const BadRobot = () => {
     return (
       <>
       <h2>Bad Robot:</h2>
+      <p></p>
       </>
     )
   }

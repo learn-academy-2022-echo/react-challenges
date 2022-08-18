@@ -4,11 +4,9 @@ const GoodRobot = (props) => {
     return (
       <>
       <h2>Good Robot:</h2>
-      <div>
-      {props.userInput.map((string)=>{
-        return <div> {userInput} </div>
-    })}
-      </div>
+      <p>{props.userInput}
+      
+      </p>
       </>
     )
   }
