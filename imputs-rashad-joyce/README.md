@@ -84,7 +84,7 @@ As a user, I see a third robot that modifies the input as per the developer's ch
 // create three different child components, one will be goodRobot, one  badRobot,  one warriorRobot
 // within each child component they'll need their own display section
 
-//import section
+// import section
     // import React from 'react'
     // import useState 
     // import goodRobot
@@ -97,3 +97,4 @@ As a user, I see a third robot that modifies the input as per the developer's ch
     // create onChange event named handleMethod, which will be what listen for click
     // create input attribute which will accept text, pull the value of useState variable and also hold onChange
 
+// 
