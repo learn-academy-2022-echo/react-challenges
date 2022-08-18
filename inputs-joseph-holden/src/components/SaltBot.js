@@ -2,7 +2,7 @@ import React from "react";
 
 
 const SaltBot = (props) => {
-   var message = ", damn ur sweaty lol"
+   var message = ", damn ur sweaty at this game lol"
    
     return(
         <>

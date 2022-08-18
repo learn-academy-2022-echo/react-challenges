@@ -9,20 +9,28 @@ function App() {
   
   const[userInput, setUserInput] = useState("")
 
+  // const[userIndex, setUserIndex] = useState("")
+
   const handleChange = (e) => {
-    console.log("its working!")
     setUserInput(e.target.value)
+    // setUserIndex(e.target.index)
+    console.log(e.target.value);
   }
+
+  
+    
+
   
   return (
     <>
     <div className="App">
-      <h1>Listening Robot</h1>
+      <h1>Listening Robots</h1>
+      <p>give it a message :</p>
       <input type="text" value={userInput} onChange={handleChange}/>
       <p>{userInput}</p>
     </div>
       <hr/>
-      <h2>GoodRobot</h2>
+      <h2>Good Robot</h2>
       <GoodRobot value={userInput}/>
       <hr/>
       <h2>Bad Robot</h2>

@@ -6,15 +6,21 @@ import React from "react";
 
 const BadRobot = (props) => {
    var message = "You said this right? : "
+   var b = "B"
+   var l = "L"
+   var a = "A"
    
     return(
-        <>
-           {props.value.map((value, index)=>{
-                value[index] = "BLA" 
-
-                return <p>{message.concat(props.value)}</p>
-           })}
-        </>
+    <>
+            <div>
+                {/* use built in method */}
+                <p>{message}
+                {props.value.split("").map((value)=>{
+                 return "BLA" 
+                })}
+                </p>
+            </div>
+    </>
     )
 }
 
