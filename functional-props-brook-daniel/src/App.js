@@ -12,11 +12,21 @@ function App() {
     {foodname: "fries", price: 1.5},
     {foodname: "sub", price: 5},
     {foodname: "wings", price: 7}])
-  console.log(food)
+
+  const [sum, setSum] = useState(0)
+
+  const tax = 0.08
+
+  const addTotal = (price) => {
+    setSum((price * tax) + price)
+    console.log(sum);
+  }
+  
   return (
    <>
   <Menu foodObj = {food}/>
-  <Order/>
+
+  <Order foodObj = {food} sum = {sum} addTotal={addTotal}/>
 
    </>
   );

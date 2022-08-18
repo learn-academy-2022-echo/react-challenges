@@ -15,9 +15,11 @@ In app.js we will create an array using the {usestate}
 
 
 📚 User Stories
-As a user, I can see an application that has a list of food items and the price of each item.
+As a user, I can see an application that has a list of food items and the price of each item. 
+X
 Hint: Take some time to think about the data structure that will allow you to effectively store the required information.
 As a user, I can click a button to select an item I wish to order.
+
 As a user, I can see the items I have selected to order displayed on the page.
 🏔 Stretch
 As a user, I can see the total cost of my current order.
