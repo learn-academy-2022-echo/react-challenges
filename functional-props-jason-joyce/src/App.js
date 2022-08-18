@@ -2,11 +2,13 @@ import React, { useState } from 'react'
 import Menu from './components/Menu'
 const App = () => {
   const [foodList, setFoodList] = useState([
-    {name: "cheesecake slice $2.99", order: false},
-    {name: "apple pie $2.99", order: false},
-    {name: "banana bread $2.00", order: false},
-    {name: "cookies 6.00", order: false},
-    {name: "a dozen doughnuts $12.00", order: false}
+
+    {name: "cheesecake slice", price: "$2.99"},
+    {name: "apple pie", price: "$2.99"},
+    {name: "banana bread", price: "$2.00"},
+    {name: "cookies", price: "$6.00"},
+    {name: "a dozen doughnuts", price: "$12.00"}
+
   ])
   
   return (

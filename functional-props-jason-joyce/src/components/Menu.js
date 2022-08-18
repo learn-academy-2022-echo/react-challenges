@@ -1,14 +1,16 @@
 import React from 'react'
 
 const Menu = ( props ) => {
-    // {props.sweets.map((value, index) => {
+
+    {props.sweets.map((value, index) => {
   return (
-    // <ul key={index}>
-      <h1>Menu: {props.sweets.name}</h1>
+    <ul key={index}>
+      <h1>Menu: {value.name}</h1>
      
-    // </ul>
-  )}
-// })}
-// }
+    </ul>
+  )
+})}
+}
+
 
 export default Menu
