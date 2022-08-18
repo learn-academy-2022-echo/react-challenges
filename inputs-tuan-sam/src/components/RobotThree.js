@@ -1,9 +1,10 @@
 import App from "../App";
 
-const RobotThree = () => {
+const RobotThree = (props) => {
     return(
         <>
-        <h2>Weird Robot</h2>
+        <h2>Kanye Robot</h2>
+        <p>I'm gonna let you finish but Beyonce is {props.userInput}</p>
         </>
     )
 }

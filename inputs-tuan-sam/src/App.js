@@ -6,18 +6,27 @@ import RobotThree from "./components/RobotThree"
 
 const App = () => {
   const [userInput, setUserInput] = useState("")
+  const myArr = ["b", "l", "a"]
+  const [inputValue, setInputValue] = useState("")
 
   const handleChange = (e) => {
   setUserInput(e.target.value)
   }
 
+  const robot2 = () => {
+    for(let i = 0; i < handleChange.length; i++)
+    if (handleChange[i] !== "b") {
+      return "b"
+    }
+  }
+
   return (
     <>
+    
     <h1>Robot listening activity</h1>
       <input type="text" value={userInput} onChange={handleChange} />
-      <RobotOne handleChange = {handleChange} userInput = {userInput}/>
-      <RobotTwo userInput = {userInput}/>
-      
+      <RobotOne userInput = {userInput}/>
+      <RobotTwo userInput = {userInput} robot2 ={robot2} />
       <RobotThree userInput = {userInput}/>
     
     </>
