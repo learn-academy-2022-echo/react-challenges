@@ -3,10 +3,10 @@ Create a landing page with a text input
 Create 3 robots that return input in real time with seperate returns
 
 # Goodbot
-create a state that returns the proper statement
+Take the user input and returns it correctly
 
 # Badbot
-create a state that returns blabla for each character typed
+takes input and replaces its with blablabla reoccuring for every character I type
 
 # Devbot
-create a state that returns the proper statement but modified by developers choice
+Take the user input and return it however we see fit
