@@ -10,14 +10,7 @@ function App() {
 const handleChange = (e) =>{
 setUserInput(e.target.value)
 
-// make a blank array for goodBot?
-// const [goodBotText, setGoodBotText] = useState([])
-
-const gBot = () => {
-  const gBotText=
-  setUserInput([...userInput,gBotText])
-}
-
+// Take the user input and pass it down into GoodBot
 
 
 }
@@ -27,7 +20,7 @@ const gBot = () => {
 
 <input type="text" value={userInput} onChange={handleChange}/>
 <p>{userInput}</p>
-<GoodBot onChange={handleChange}
+<GoodBot userInput={userInput}
 />
 
   
