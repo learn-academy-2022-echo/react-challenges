@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Menu = ( props ) => {
+
     {props.sweets.map((value, index) => {
   return (
     <ul key={index}>
@@ -10,5 +11,6 @@ const Menu = ( props ) => {
   )
 })}
 }
+
 
 export default Menu
