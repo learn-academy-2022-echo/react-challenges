@@ -1,0 +1,16 @@
+.red {
+  border-style: solid;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(187, 109, 109);
+  margin: 0 auto;
+}
+
+.white {
+  border-style: solid;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(252, 251, 251);
+  margin: 0 auto;
+}
+
