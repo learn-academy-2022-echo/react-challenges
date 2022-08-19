@@ -15,33 +15,26 @@ function App() {
  // creates an onchange event that takes the input from the user and sets it in the array
 
 const handleChange = (e) => {
-setUserInput(e.target.value)
+  setUserInput(e.target.value)}
 
 // take the user input and replace each character with b then l then a every time I type a new character in that order
 
-// function that takes each character in a string and iterates through and replaces them in the order of bla indefinitley
 
-// store bla in an array
-
-// split user input in individual characters
-
-// replace individual characters with bla in a reoccuring order
-
-// once replaced, join it all back together
-
-// const badText = () => {
-//   let badArr = ["bla"]
-//   let splitArr = {userInput}.split("")
-//   return splitArr.forEach()
- 
-// }
+// if(index === 0 || index === 3 * index){
+//   return b
+// }else if (index === 1 || index === 3 * index + 1){return l
+//   }else if(index ===2 || index === 3 * index + 2){
+//       return a
+//   }
 
 
 // .split()? new state? spread operator? function?
 
 
 
-}
+
+
+
 
  return (<>
   <h1>Robot Parrot</h1>
