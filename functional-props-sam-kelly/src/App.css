@@ -1,0 +1,44 @@
+* {
+  text-align: center;
+ 
+}
+
+.background {
+  background-image: url("https://i.pinimg.com/originals/c4/cb/8a/c4cb8aaea85fbe791536832a12efd25d.jpg");
+  background-color: limegreen;
+  background-size:contain;
+  background-position:fixed;
+}
+.picture {
+  height: 400px;
+  width: 400px;
+}
+.menu {
+  color: white;
+  font-size: 30px;
+}
+.food {
+  color: limegreen;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.header {
+  animation: bounce 3s infinite;
+  animation-timing-function: ease-in-out;
+  font-size: 500%;
+  color: limegreen;
+}
+
+@keyframes bounce {
+   0% {
+     transform:scaleX(0.5);
+   }
+   60%{
+     transform: scaleX(1);
+   }
+   100%{
+     transform: scaleX(0.8);
+   }
+}
